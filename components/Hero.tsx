@@ -145,7 +145,7 @@ export default function Hero() {
             </div>
 
           </div>
-<div className="absolute bottom-5 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-md border border-black/5 px-5 py-3 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.08)] flex items-center gap-3">
+<div className="absolute bottom-5 left-17 bg-white/95 backdrop-blur-md border border-black/5 px-5 py-3 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.08)] flex items-center gap-3">
 
   <div className="w-2.5 h-2.5 rounded-full bg-green-500"></div>
 
