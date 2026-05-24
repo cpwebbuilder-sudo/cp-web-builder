@@ -7,14 +7,14 @@ export default function Hero() {
 
     <section
       id="home"
-      className="relative min-h-screen flex items-start px-5 md:px-7 pt-24 md:pt-32 overflow-hidden"
+      className="relative min-h-[90vh] flex items-start px-5 md:px-7 pt-24 md:pt-32 overflow-hidden"
     >
 
       {/* Glow */}
 
       <div className="absolute w-96 h-96 bg-orange-500/20 blur-3xl rounded-full top-20 left-10"></div>
 
-      <div className="max-w-[1250px] mx-auto grid grid-cols-2 gap-24 items-center">
+      <div className="max-w-[1250px] mx-auto grid lg:grid-cols-2 gap-24 items-center">
 
         {/* LEFT SIDE */}
 
@@ -29,7 +29,7 @@ export default function Hero() {
   duration: 0.8,
   ease: "easeOut",
 }}
-            className="text-[32px] md:text-[52px] lg:text-[74px] font-semibold tracking-tight leading-[1] mb-8"
+            className="text-[42px] sm:text-[52px] lg:text-[74px] font-semibold tracking-tight leading-[1] mb-8"
           >
             
 
@@ -77,7 +77,7 @@ export default function Hero() {
   duration: 0.8,
   delay: 0.4,
 }}
-            className="flex gap-4"
+            className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
           >
 
           <a
@@ -139,7 +139,7 @@ export default function Hero() {
               <img
                 src="/images/me.png"
                 alt="Preview"
-                className="w-full h-[380px] sm:h-[620px] object-cover object-top"
+                className="w-[320px] md:w-[420px] h-[420px] md:h-[560px] object-cover object-top"
               />
 
             </div>

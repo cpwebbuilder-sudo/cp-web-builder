@@ -28,8 +28,3 @@ section{
 
 
 
-@media (max-width: 768px) {
-  body {
-    min-width: 1200px;
-  }
-}

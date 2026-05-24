@@ -14,6 +14,7 @@ export default function Navbar() {
   <div className="max-w-6xl mx-auto bg-white/80 backdrop-blur-xl border border-black/5 rounded-full px-8 py-4 flex justify-between items-center shadow-[0_10px_40px_rgba(0,0,0,0.04)]">
 
     {/* LOGO */}
+    
 
 <h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 bg-clip-text text-transparent">
   <span className="text-black">CP</span> Web Builder
@@ -50,15 +51,30 @@ export default function Navbar() {
 
     <a
   href="https://wa.me/917904505254?text=Hi%20I%20need%20a%20website"
+  className="hidden md:flex bg-black text-white px-8 py-4 rounded-full font-medium hover:opacity-90 transition duration-300"
   target="_blank"
   rel="noopener noreferrer"
-  className="bg-black text-white px-8 py-4 rounded-full font-medium hover:opacity-90 transition duration-300"
+  
 >
   Let's Talk
 </a>
-
+<button
+  onClick={() => setMenuOpen(!menuOpen)}
+  className="md:hidden text-3xl"
+>
+  {menuOpen ? <HiX /> : <HiMenu />}
+</button>
   </div>
-
+{
+  menuOpen && (
+    <div className="md:hidden mt-4 bg-white rounded-3xl p-6 flex flex-col gap-5 shadow-xl">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </div>
+  )
+}
 </nav>
   );
 }
