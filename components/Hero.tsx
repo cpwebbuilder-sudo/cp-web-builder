@@ -14,7 +14,7 @@ export default function Hero() {
 
       <div className="absolute w-96 h-96 bg-orange-500/20 blur-3xl rounded-full top-20 left-10"></div>
 
-      <div className="max-w-[1500px] mx-auto grid grid-cols-2 gap-10 lg:gap-16 items-center">
+      <div className="max-w-[1500px] mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
         {/* LEFT SIDE */}
 
@@ -29,7 +29,7 @@ export default function Hero() {
   duration: 0.8,
   ease: "easeOut",
 }}
-            className="text-[26px] sm:text-[38px] md:text-[52px] lg:text-[74px] font-semibold tracking-tight leading-[1] mb-8"
+            className="text-[42px] sm:text-[52px] md:text-[52px] lg:text-[74px] font-semibold tracking-tight leading-[1] mb-8"
           >
             
 
@@ -77,7 +77,7 @@ export default function Hero() {
   duration: 0.8,
   delay: 0.4,
 }}
-            className="flex gap-4"
+            className="flex flex-col sm:flex-row gap-4"
           >
 
           <a
@@ -139,13 +139,13 @@ export default function Hero() {
               <img
                 src="/images/me.png"
                 alt="Preview"
-                className="max-w-[500px] h-[620px] object-cover object-top"
+                className="w-full h-[380px] sm:h-[620px] object-cover object-top"
               />
 
             </div>
 
           </div>
-<div className="absolute bottom-5 left-18 bg-white/95 backdrop-blur-md border border-black/5 px-5 py-3 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.08)] flex items-center gap-3">
+<div className="absolute bottom-5 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-md border border-black/5 px-5 py-3 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.08)] flex items-center gap-3">
 
   <div className="w-2.5 h-2.5 rounded-full bg-green-500"></div>
 
