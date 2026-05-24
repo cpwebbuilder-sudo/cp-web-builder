@@ -16,9 +16,25 @@ export default function Navbar() {
     {/* LOGO */}
     
 
-<h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-  <span className="text-black">CP</span> Web Builder
-</h1>
+<div className="flex items-center gap-3">
+
+  <div className="w-11 h-11 rounded-2xl bg-black text-white flex items-center justify-center font-bold text-lg shadow-lg">
+    CP
+  </div>
+
+  <div className="leading-tight">
+
+    <h1 className="text-[20px] md:text-2xl font-bold tracking-tight text-black">
+      Web Builder
+    </h1>
+
+    <p className="text-xs text-zinc-500 tracking-wide">
+      Modern Web Design Studio
+    </p>
+
+  </div>
+
+</div>
 
     {/* LINKS */}
 
@@ -35,9 +51,20 @@ export default function Navbar() {
         href="#projects"
         className="text-zinc-500 hover:text-black transition duration-300"
       >
-        Projects
+        Portfolio
       </a>
-
+<a
+        href="#pricing"
+        className="text-zinc-500 hover:text-black transition duration-300"
+      >
+        Pricing
+      </a>
+      <a
+        href="#faq"
+        className="text-zinc-500 hover:text-black transition duration-300"
+      >
+        FAQ
+      </a>
       <a
         href="#contact"
         className="text-zinc-500 hover:text-black transition duration-300"

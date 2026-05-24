@@ -18,7 +18,7 @@ export default function Hero() {
 
         {/* LEFT SIDE */}
 
-        <div className="max-w-[520px] text-center lg:text-left mx-auto lg:mx-0">
+        <div className="max-w-[520px] text-left mx-auto lg:mx-0">
 
         
 
@@ -29,7 +29,7 @@ export default function Hero() {
   duration: 0.8,
   ease: "easeOut",
 }}
-            className="text-[42px] sm:text-[52px] lg:text-[74px] font-semibold tracking-tight leading-[1] mb-8"
+            className="text-[24px] sm:text-[34px] md:text-[52px] lg:text-[74px] font-semibold tracking-tight leading-[1.05] mb-6"
           >
             
 
@@ -77,7 +77,7 @@ export default function Hero() {
   duration: 0.8,
   delay: 0.4,
 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+            className="flex flex-row gap-4 flex-wrap justify-center lg:justify-start"
           >
 
           <a
