@@ -14,7 +14,7 @@ export default function Hero() {
 
       <div className="absolute w-96 h-96 bg-orange-500/20 blur-3xl rounded-full top-20 left-10"></div>
 
-      <div className="max-w-[1500px] mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+      <div className="max-w-[1500px] mx-auto grid grid-cols-2 gap-10 lg:gap-16 items-start">
 
         {/* LEFT SIDE */}
 
@@ -29,7 +29,7 @@ export default function Hero() {
   duration: 0.8,
   ease: "easeOut",
 }}
-            className="text-[42px] sm:text-[52px] md:text-[52px] lg:text-[74px] font-semibold tracking-tight leading-[1] mb-8"
+            className="text-[32px] md:text-[52px] lg:text-[74px] font-semibold tracking-tight leading-[1] mb-8"
           >
             
 
@@ -77,7 +77,7 @@ export default function Hero() {
   duration: 0.8,
   delay: 0.4,
 }}
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex gap-4"
           >
 
           <a
