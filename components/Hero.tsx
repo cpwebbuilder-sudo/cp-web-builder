@@ -14,11 +14,11 @@ export default function Hero() {
 
       <div className="absolute w-96 h-96 bg-orange-500/20 blur-3xl rounded-full top-20 left-10"></div>
 
-      <div className="max-w-[1500px] mx-auto grid grid-cols-2 gap-10 lg:gap-16 items-start">
+      <div className="max-w-[1250px] mx-auto grid grid-cols-2 gap-24 items-center">
 
         {/* LEFT SIDE */}
 
-        <div className="max-w-[560px] text-center lg:text-left mx-auto lg:mx-0">
+        <div className="max-w-[520px] text-center lg:text-left mx-auto lg:mx-0">
 
         
 
@@ -118,9 +118,9 @@ export default function Hero() {
       ease: "easeInOut",
     },
   }}
-  className="relative flex justify-center lg:justify-center"
+  className="relative flex justify-center"
 >
-            <div className="absolute bottom-0 right-[-20px] h-[620px] object-contain z-20"></div>
+            <div className="absolute bottom-0 right-[-20px] h-[560px] object-contain z-20"></div>
             
          <div className="bg-gradient-to-br from-[#fff7fb] to-[#f3f0ff] border border-black/5 rounded-[36px] p-5">
 
@@ -145,7 +145,7 @@ export default function Hero() {
             </div>
 
           </div>
-<div className="absolute bottom-5 left-17 bg-white/95 backdrop-blur-md border border-black/5 px-5 py-3 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.08)] flex items-center gap-3">
+<div className="absolute bottom-5 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-md border border-black/5 px-5 py-3 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.08)] flex items-center gap-3">
 
   <div className="w-2.5 h-2.5 rounded-full bg-green-500"></div>
 
