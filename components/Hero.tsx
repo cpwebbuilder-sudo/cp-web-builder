@@ -7,7 +7,7 @@ export default function Hero() {
 
     <section
       id="home"
-      className="relative min-h-screen flex items-start px-5 md:px-7 pt-24 md:pt-32 pb-8 overflow-hidden"
+      className="relative min-h-screen flex items-start px-5 md:px-7 pt-24 md:pt-32 overflow-hidden"
     >
 
       {/* Glow */}
