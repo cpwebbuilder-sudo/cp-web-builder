@@ -14,7 +14,7 @@ export default function Hero() {
 
       <div className="absolute w-96 h-96 bg-orange-500/20 blur-3xl rounded-full top-20 left-10"></div>
 
-      <div className="max-w-[1500px] mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+      <div className="max-w-[1500px] mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
 
         {/* LEFT SIDE */}
 
@@ -118,7 +118,7 @@ export default function Hero() {
       ease: "easeInOut",
     },
   }}
-  className="relative flex justify-center lg:justify-center mt-8 lg:mt-0"
+  className="relative flex justify-center lg:justify-center"
 >
             <div className="absolute bottom-0 right-[-20px] h-[620px] object-contain z-20"></div>
             

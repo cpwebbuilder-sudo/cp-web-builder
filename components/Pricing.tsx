@@ -3,11 +3,11 @@ export default function Pricing() {
 
     <section id="pricing" className="py-16 md:py-32 px-4 md:px-6">
 
-      <div className="max-w-6xl mx-auto bg-white border border-black/5 rounded-[40px] p-6 md:p-10 md:p-12 shadow-[0_20px_80px_rgba(0,0,0,0.06)]">
+      <div className="max-w-6xl mx-auto bg-white border border-black/5 rounded-[40px] p-6 md:p-12 shadow-[0_20px_80px_rgba(0,0,0,0.06)]">
 
         {/* TOP */}
 
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:p-10 mb-10">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10">
 
           <div>
 
@@ -37,7 +37,7 @@ export default function Pricing() {
 
         {/* CARDS */}
 
-        <div className="grid lg:grid-cols-3 gap-6 md:p-10">
+        <div className="grid lg:grid-cols-3 gap-6">
 
           {/* STARTER */}
 
