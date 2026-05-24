@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Projects() {
   return (
 
-    <section id="projects" className="py-32 px-6">
+    <section id="projects" className="py-16 md:py-32 px-4 md:px-6">
 
       <div className="max-w-6xl mx-auto bg-white border border-black/5 rounded-[40px] p-8 md:p-12 shadow-[0_20px_80px_rgba(0,0,0,0.06)]">
 

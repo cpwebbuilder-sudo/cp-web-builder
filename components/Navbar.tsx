@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
 
-    <nav className="top-0 z-50 px-6 md:px-12 pt-6">
+    <nav className="top-0 z-50 px-4 md:px-6 md:px-12 pt-6">
 
   <div className="max-w-6xl mx-auto bg-white/80 backdrop-blur-xl border border-black/5 rounded-full px-8 py-4 flex justify-between items-center shadow-[0_10px_40px_rgba(0,0,0,0.04)]">
 

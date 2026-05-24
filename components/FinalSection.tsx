@@ -1,7 +1,7 @@
 export default function FinalSection() {
   return (
 
-    <section id="contact" className="px-4 md:px-6 pb-12 pt-24">
+    <section id="contact" className="px-4 md:px-4 md:px-6 pb-12 pt-24">
 
       <div className="max-w-[1300px] mx-auto bg-black rounded-[36px] p-8 md:p-10 shadow-[0_30px_120px_rgba(0,0,0,0.25)] relative overflow-hidden">
 
@@ -13,7 +13,7 @@ export default function FinalSection() {
 
         {/* TOP GRID */}
 
-        <div className="relative z-10 grid lg:grid-cols-2 gap-12">
+        <div className="relative z-10 grid md:grid-cols-2 gap-6 md:gap-12">
 
           {/* LEFT */}
 
@@ -63,7 +63,7 @@ export default function FinalSection() {
               Web Design & Development
             </p>
 
-            <div className="bg-green-500/10 border border-green-500/20 text-green-400 px-4 md:px-6 py-3 rounded-full">
+            <div className="bg-green-500/10 border border-green-500/20 text-green-400 px-4 md:px-4 md:px-6 py-3 rounded-full">
 
               ● Available for new projects
 

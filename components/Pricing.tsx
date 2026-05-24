@@ -1,13 +1,13 @@
 export default function Pricing() {
   return (
 
-    <section id="pricing" className="py-32 px-6">
+    <section id="pricing" className="py-16 md:py-32 px-4 md:px-6">
 
-      <div className="max-w-6xl mx-auto bg-white border border-black/5 rounded-[40px] p-10 md:p-12 shadow-[0_20px_80px_rgba(0,0,0,0.06)]">
+      <div className="max-w-6xl mx-auto bg-white border border-black/5 rounded-[40px] p-6 md:p-10 md:p-12 shadow-[0_20px_80px_rgba(0,0,0,0.06)]">
 
         {/* TOP */}
 
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-10 mb-10">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:p-10 mb-10">
 
           <div>
 
@@ -37,13 +37,13 @@ export default function Pricing() {
 
         {/* CARDS */}
 
-        <div className="grid lg:grid-cols-3 gap-10">
+        <div className="grid lg:grid-cols-3 gap-6 md:p-10">
 
           {/* STARTER */}
 
-          <div className="bg-[#eef7f1] border border-green-100 rounded-[32px] p-10 hover:-translate-y-1 transition-all duration-500">
+          <div className="bg-[#eef7f1] border border-green-100 rounded-[32px] p-6 md:p-10 hover:-translate-y-1 transition-all duration-500">
 
-            <h3 className="text-5xl font-semibold tracking-tight mb-4">
+            <h3 className="text-4xl font-semibold tracking-tight mb-4">
               Starter
             </h3>
 
@@ -55,7 +55,7 @@ export default function Pricing() {
 
             </p>
 
-            <h2 className="text-5xl font-semibold tracking-tight mb-10">
+            <h2 className="text-4xl font-semibold tracking-tight mb-10">
               ₹2,999
             </h2>
 
@@ -83,13 +83,13 @@ export default function Pricing() {
 
           {/* BUSINESS */}
 
-          <div className="bg-[#eef4ff] border border-blue-100 rounded-[32px] p-10 hover:-translate-y-1 transition-all duration-500 relative">
+          <div className="bg-[#eef4ff] border border-blue-100 rounded-[32px] p-6 md:p-10 hover:-translate-y-1 transition-all duration-500 relative">
 
             <div className="absolute top-2 right-2 bg-blue-600 text-white text-xs px-4 py-2 rounded-full">
               Popular
             </div>
 
-            <h3 className="text-5xl font-semibold tracking-tight mb-4">
+            <h3 className="text-4xl font-semibold tracking-tight mb-4">
               Business
             </h3>
 
@@ -101,7 +101,7 @@ export default function Pricing() {
 
             </p>
 
-            <h2 className="text-5xl font-semibold tracking-tight mb-10">
+            <h2 className="text-4xl font-semibold tracking-tight mb-10">
               ₹4,999
             </h2>
 
@@ -128,9 +128,9 @@ export default function Pricing() {
           </div>
 {/* PREMIUM */}
 
-<div className="bg-[#fff1f5] border border-pink-100 rounded-[32px] p-10 hover:-translate-y-1 transition-all duration-500">
+<div className="bg-[#fff1f5] border border-pink-100 rounded-[32px] p-6 md:p-10 hover:-translate-y-1 transition-all duration-500">
 
-  <h3 className="text-5xl font-semibold tracking-tight mb-4">
+  <h3 className="text-4xl font-semibold tracking-tight mb-4">
     Premium
   </h3>
 
@@ -142,7 +142,7 @@ export default function Pricing() {
 
   </p>
 
- <h2 className="text-5xl font-semibold tracking-tight mb-10">
+ <h2 className="text-4xl font-semibold tracking-tight mb-10">
               ₹10,000
             </h2>
 
