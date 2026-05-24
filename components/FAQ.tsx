@@ -51,7 +51,7 @@ export default function FAQ() {
 
           <div>
 
-            <h2 className="text-6xl md:text-7xl font-semibold tracking-tight mb-3">
+            <h2 className="text-[38px] md:text-7xl font-semibold tracking-tight mb-3">
               FAQ
             </h2>
 

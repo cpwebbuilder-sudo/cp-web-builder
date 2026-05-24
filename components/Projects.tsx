@@ -11,7 +11,7 @@ export default function Projects() {
 
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8 mb-10">
 
-          <h2 className="text-6xl md:text-7xl font-semibold tracking-tight">
+          <h2 className="text-[38px] md:text-7xl font-semibold tracking-tight">
             Portfolio
             
           </h2>

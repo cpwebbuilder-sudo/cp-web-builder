@@ -25,3 +25,9 @@ html{
 section{
   position: relative;
 }
+
+@media (max-width: 768px) {
+  html {
+    zoom: 0.80;
+  }
+}
