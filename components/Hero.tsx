@@ -23,39 +23,36 @@ export default function Hero() {
         
 
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-  duration: 0.8,
-  ease: "easeOut",
-}}
-            className="text-[24px] sm:text-[34px] md:text-[52px] lg:text-[74px] font-semibold tracking-tight leading-[1.05] mb-6"
-          >
-            
-
-           <>
-  Hello, I’m
-
-  <br />
-
-  <span className="bg-gradient-to-r from-emerald-400 via-cyan-500 to-blue-500 bg-clip-text text-transparent">
-    {" "}Priyadarshini C.
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{
+    duration: 0.8,
+    ease: "easeOut",
+  }}
+  className="text-[42px] md:text-[60px] lg:text-[74px] font-semibold tracking-tight leading-[1.05] mb-8"
+>
+  <span className="text-black">
+    Hello, I’m
   </span>
 
   <br />
 
-  <span className="text-black">
+  <span className="bg-gradient-to-r from-emerald-400 via-cyan-500 to-blue-500 bg-clip-text text-transparent whitespace-nowrap">
+    Priyadarshini C.
+  </span>
+
+  <br />
+
+  <span className="text-black whitespace-nowrap">
     Web Designer &
   </span>
 
   <br />
 
   <span className="bg-gradient-to-r from-orange-400 via-pink-400 to-purple-500 bg-clip-text text-transparent">
-    Frontend Developer
-  </span>
-</>
-
-          </motion.h1>
+  Frontend Developer
+</span>
+</motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 30 }}
